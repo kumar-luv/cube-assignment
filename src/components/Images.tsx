@@ -37,7 +37,6 @@ const Images: React.FC = () => {
   };
 
   useEffect(() => {
-    getImages();
 
     const interval = setInterval(() => {
       getImages();
